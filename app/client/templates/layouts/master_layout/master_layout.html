@@ -6,8 +6,11 @@
 
   <div class="row">
     <ul class="breadcrumb">
-      <a href="/">Home</a>
-      <span class="divider">/</span>        
+      <li>
+        <a href="/">Home</a>
+        <span class="divider">/</span>        
+      </li>
+      {{> yield "breadcrumbs"}}
     </ul>
   </div>
 
