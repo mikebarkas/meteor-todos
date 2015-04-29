@@ -19,3 +19,8 @@ body {
 
 .main {
 }
+
+.breadcrumb li {
+  list-style: none;
+  float: left;
+}
