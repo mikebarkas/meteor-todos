@@ -1,19 +1,19 @@
 <template name="TodosList">
   <div class="todos-panel">
-    {{> CreateTodoItem}}    
+    {{> CreateTodoItem}}
 
     <ul class="todos-list">
       {{#each todos}}
           <li class="todo-item {{isDoneClass}}">
-            {{> TodoItem}} 
+            {{> TodoItem}}
           </li>
       {{else}}
         <li class="todo-item empty">
-          No todos yet.
+          Log in to see your todos.
         </li>
       {{/each}}
     </ul>
-    
+
     {{> TodosCount}}
   </div>
 </template>
